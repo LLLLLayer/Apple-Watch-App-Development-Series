@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2A16B528CDE82F00FEAB93 /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A16B428CDE82F00FEAB93 /* Delivery.swift */; };
+		2B2A16B628CDE82F00FEAB93 /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A16B428CDE82F00FEAB93 /* Delivery.swift */; };
+		2B2A16B728CE11CB00FEAB93 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27628CC9D2200292D33 /* QRCode.swift */; };
+		2B91A22A28CC70C100292D33 /* FlippedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A22928CC70C100292D33 /* FlippedApp.swift */; };
+		2B91A22C28CC70C100292D33 /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A22B28CC70C100292D33 /* PurchasedTicketsListView.swift */; };
+		2B91A22E28CC70C200292D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B91A22D28CC70C200292D33 /* Assets.xcassets */; };
+		2B91A23128CC70C200292D33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B91A23028CC70C200292D33 /* Preview Assets.xcassets */; };
+		2B91A23528CC70C200292D33 /* Flipped WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2B91A23428CC70C200292D33 /* Flipped WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B91A23A28CC70C300292D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B91A23928CC70C300292D33 /* Assets.xcassets */; };
+		2B91A24028CC70C300292D33 /* Flipped WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B91A23F28CC70C300292D33 /* Flipped WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B91A24528CC70C300292D33 /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A24428CC70C300292D33 /* PurchasedTicketsListView.swift */; };
+		2B91A24728CC70C300292D33 /* FlippedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A24628CC70C300292D33 /* FlippedApp.swift */; };
+		2B91A24928CC70C300292D33 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A24828CC70C300292D33 /* ComplicationController.swift */; };
+		2B91A24B28CC70C300292D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B91A24A28CC70C300292D33 /* Assets.xcassets */; };
+		2B91A24E28CC70C300292D33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B91A24D28CC70C300292D33 /* Preview Assets.xcassets */; };
+		2B91A26128CC71BF00292D33 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A26028CC71BF00292D33 /* Movie.swift */; };
+		2B91A26328CC7A8900292D33 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B91A26228CC7A8900292D33 /* Movies.json */; };
+		2B91A26528CC7EFC00292D33 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A26428CC7EFC00292D33 /* TicketOffice.swift */; };
+		2B91A26728CC847200292D33 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A26628CC847200292D33 /* MovieInfoView.swift */; };
+		2B91A26828CC886E00292D33 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A26628CC847200292D33 /* MovieInfoView.swift */; };
+		2B91A26928CC887500292D33 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A26028CC71BF00292D33 /* Movie.swift */; };
+		2B91A26A28CC887800292D33 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B91A26228CC7A8900292D33 /* Movies.json */; };
+		2B91A26B28CC887B00292D33 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A26428CC7EFC00292D33 /* TicketOffice.swift */; };
+		2B91A26D28CC8EC900292D33 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A26C28CC8EC900292D33 /* MovieListView.swift */; };
+		2B91A26F28CC929100292D33 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A26E28CC929100292D33 /* MovieDetailsView.swift */; };
+		2B91A27128CC929A00292D33 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27028CC929A00292D33 /* MovieDetailsView.swift */; };
+		2B91A27328CC948E00292D33 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27228CC948E00292D33 /* MovieRow.swift */; };
+		2B91A27528CC949A00292D33 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27428CC949A00292D33 /* MovieRow.swift */; };
+		2B91A27728CC9D2200292D33 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27628CC9D2200292D33 /* QRCode.swift */; };
+		2B91A27928CCB14800292D33 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27828CCB14800292D33 /* QRCodeView.swift */; };
+		2B91A27B28CCB4A200292D33 /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27A28CCB4A200292D33 /* PurchaseTicketView.swift */; };
+		2B91A27C28CCBC9900292D33 /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27A28CCB4A200292D33 /* PurchaseTicketView.swift */; };
+		2B91A27D28CCC83D00292D33 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A26C28CC8EC900292D33 /* MovieListView.swift */; };
+		2B91A27F28CCCA0200292D33 /* ConnectivityUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27E28CCCA0200292D33 /* ConnectivityUserInfoKey.swift */; };
+		2B91A28128CDC7AE00292D33 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A28028CDC7AE00292D33 /* Connectivity.swift */; };
+		2B91A28228CDC7B700292D33 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A28028CDC7AE00292D33 /* Connectivity.swift */; };
+		2B91A28328CDD5EF00292D33 /* ConnectivityUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91A27E28CCCA0200292D33 /* ConnectivityUserInfoKey.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B91A23628CC70C200292D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B91A21E28CC70C100292D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B91A23328CC70C200292D33;
+			remoteInfo = "Flipped WatchKit App";
+		};
+		2B91A24128CC70C300292D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B91A21E28CC70C100292D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B91A23E28CC70C300292D33;
+			remoteInfo = "Flipped WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B91A25528CC70C300292D33 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B91A24028CC70C300292D33 /* Flipped WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B91A25928CC70C300292D33 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2B91A23528CC70C200292D33 /* Flipped WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B2A16B428CDE82F00FEAB93 /* Delivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		2B91A22628CC70C100292D33 /* Flipped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipped.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B91A22928CC70C100292D33 /* FlippedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedApp.swift; sourceTree = "<group>"; };
+		2B91A22B28CC70C100292D33 /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
+		2B91A22D28CC70C200292D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B91A23028CC70C200292D33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B91A23428CC70C200292D33 /* Flipped WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flipped WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B91A23928CC70C300292D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B91A23F28CC70C300292D33 /* Flipped WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Flipped WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B91A24428CC70C300292D33 /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
+		2B91A24628CC70C300292D33 /* FlippedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedApp.swift; sourceTree = "<group>"; };
+		2B91A24828CC70C300292D33 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2B91A24A28CC70C300292D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B91A24D28CC70C300292D33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B91A24F28CC70C300292D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B91A26028CC71BF00292D33 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2B91A26228CC7A8900292D33 /* Movies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
+		2B91A26428CC7EFC00292D33 /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
+		2B91A26628CC847200292D33 /* MovieInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
+		2B91A26C28CC8EC900292D33 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		2B91A26E28CC929100292D33 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		2B91A27028CC929A00292D33 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		2B91A27228CC948E00292D33 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		2B91A27428CC949A00292D33 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		2B91A27628CC9D2200292D33 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		2B91A27828CCB14800292D33 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		2B91A27A28CCB4A200292D33 /* PurchaseTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTicketView.swift; sourceTree = "<group>"; };
+		2B91A27E28CCCA0200292D33 /* ConnectivityUserInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityUserInfoKey.swift; sourceTree = "<group>"; };
+		2B91A28028CDC7AE00292D33 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B91A22328CC70C100292D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B91A23C28CC70C300292D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B91A21D28CC70C100292D33 = {
+			isa = PBXGroup;
+			children = (
+				2B91A22828CC70C100292D33 /* Flipped */,
+				2B91A23828CC70C200292D33 /* Flipped WatchKit App */,
+				2B91A24328CC70C300292D33 /* Flipped WatchKit Extension */,
+				2B91A22728CC70C100292D33 /* Products */,
+				2B91A25D28CC711900292D33 /* Shared */,
+			);
+			sourceTree = "<group>";
+		};
+		2B91A22728CC70C100292D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B91A22628CC70C100292D33 /* Flipped.app */,
+				2B91A23428CC70C200292D33 /* Flipped WatchKit App.app */,
+				2B91A23F28CC70C300292D33 /* Flipped WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B91A22828CC70C100292D33 /* Flipped */ = {
+			isa = PBXGroup;
+			children = (
+				2B91A22B28CC70C100292D33 /* PurchasedTicketsListView.swift */,
+				2B91A22928CC70C100292D33 /* FlippedApp.swift */,
+				2B91A26E28CC929100292D33 /* MovieDetailsView.swift */,
+				2B91A27228CC948E00292D33 /* MovieRow.swift */,
+				2B91A27828CCB14800292D33 /* QRCodeView.swift */,
+				2B91A22D28CC70C200292D33 /* Assets.xcassets */,
+				2B91A22F28CC70C200292D33 /* Preview Content */,
+			);
+			path = Flipped;
+			sourceTree = "<group>";
+		};
+		2B91A22F28CC70C200292D33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B91A23028CC70C200292D33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B91A23828CC70C200292D33 /* Flipped WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2B91A23928CC70C300292D33 /* Assets.xcassets */,
+			);
+			path = "Flipped WatchKit App";
+			sourceTree = "<group>";
+		};
+		2B91A24328CC70C300292D33 /* Flipped WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2B91A24F28CC70C300292D33 /* Info.plist */,
+				2B91A24828CC70C300292D33 /* ComplicationController.swift */,
+				2B91A24428CC70C300292D33 /* PurchasedTicketsListView.swift */,
+				2B91A24628CC70C300292D33 /* FlippedApp.swift */,
+				2B91A27028CC929A00292D33 /* MovieDetailsView.swift */,
+				2B91A27428CC949A00292D33 /* MovieRow.swift */,
+				2B91A24A28CC70C300292D33 /* Assets.xcassets */,
+				2B91A24C28CC70C300292D33 /* Preview Content */,
+			);
+			path = "Flipped WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2B91A24C28CC70C300292D33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B91A24D28CC70C300292D33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B91A25D28CC711900292D33 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2B91A27628CC9D2200292D33 /* QRCode.swift */,
+				2B91A26028CC71BF00292D33 /* Movie.swift */,
+				2B91A26228CC7A8900292D33 /* Movies.json */,
+				2B91A26428CC7EFC00292D33 /* TicketOffice.swift */,
+				2B91A26628CC847200292D33 /* MovieInfoView.swift */,
+				2B91A26C28CC8EC900292D33 /* MovieListView.swift */,
+				2B91A27A28CCB4A200292D33 /* PurchaseTicketView.swift */,
+				2B91A27E28CCCA0200292D33 /* ConnectivityUserInfoKey.swift */,
+				2B91A28028CDC7AE00292D33 /* Connectivity.swift */,
+				2B2A16B428CDE82F00FEAB93 /* Delivery.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B91A22528CC70C100292D33 /* Flipped */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B91A25A28CC70C300292D33 /* Build configuration list for PBXNativeTarget "Flipped" */;
+			buildPhases = (
+				2B91A22228CC70C100292D33 /* Sources */,
+				2B91A22328CC70C100292D33 /* Frameworks */,
+				2B91A22428CC70C100292D33 /* Resources */,
+				2B91A25928CC70C300292D33 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B91A23728CC70C200292D33 /* PBXTargetDependency */,
+			);
+			name = Flipped;
+			productName = Flipped;
+			productReference = 2B91A22628CC70C100292D33 /* Flipped.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B91A23328CC70C200292D33 /* Flipped WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B91A25628CC70C300292D33 /* Build configuration list for PBXNativeTarget "Flipped WatchKit App" */;
+			buildPhases = (
+				2B91A23228CC70C200292D33 /* Resources */,
+				2B91A25528CC70C300292D33 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B91A24228CC70C300292D33 /* PBXTargetDependency */,
+			);
+			name = "Flipped WatchKit App";
+			productName = "Flipped WatchKit App";
+			productReference = 2B91A23428CC70C200292D33 /* Flipped WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2B91A23E28CC70C300292D33 /* Flipped WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B91A25228CC70C300292D33 /* Build configuration list for PBXNativeTarget "Flipped WatchKit Extension" */;
+			buildPhases = (
+				2B91A23B28CC70C300292D33 /* Sources */,
+				2B91A23C28CC70C300292D33 /* Frameworks */,
+				2B91A23D28CC70C300292D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flipped WatchKit Extension";
+			productName = "Flipped WatchKit Extension";
+			productReference = 2B91A23F28CC70C300292D33 /* Flipped WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B91A21E28CC70C100292D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2B91A22528CC70C100292D33 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2B91A23328CC70C200292D33 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2B91A23E28CC70C300292D33 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B91A22128CC70C100292D33 /* Build configuration list for PBXProject "Flipped" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B91A21D28CC70C100292D33;
+			productRefGroup = 2B91A22728CC70C100292D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B91A22528CC70C100292D33 /* Flipped */,
+				2B91A23328CC70C200292D33 /* Flipped WatchKit App */,
+				2B91A23E28CC70C300292D33 /* Flipped WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B91A22428CC70C100292D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B91A23128CC70C200292D33 /* Preview Assets.xcassets in Resources */,
+				2B91A22E28CC70C200292D33 /* Assets.xcassets in Resources */,
+				2B91A26328CC7A8900292D33 /* Movies.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B91A23228CC70C200292D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B91A23A28CC70C300292D33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B91A23D28CC70C300292D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B91A24E28CC70C300292D33 /* Preview Assets.xcassets in Resources */,
+				2B91A24B28CC70C300292D33 /* Assets.xcassets in Resources */,
+				2B91A26A28CC887800292D33 /* Movies.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B91A22228CC70C100292D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B91A22C28CC70C100292D33 /* PurchasedTicketsListView.swift in Sources */,
+				2B91A28128CDC7AE00292D33 /* Connectivity.swift in Sources */,
+				2B91A27328CC948E00292D33 /* MovieRow.swift in Sources */,
+				2B91A27928CCB14800292D33 /* QRCodeView.swift in Sources */,
+				2B91A26F28CC929100292D33 /* MovieDetailsView.swift in Sources */,
+				2B2A16B528CDE82F00FEAB93 /* Delivery.swift in Sources */,
+				2B91A26528CC7EFC00292D33 /* TicketOffice.swift in Sources */,
+				2B91A22A28CC70C100292D33 /* FlippedApp.swift in Sources */,
+				2B91A27728CC9D2200292D33 /* QRCode.swift in Sources */,
+				2B91A27F28CCCA0200292D33 /* ConnectivityUserInfoKey.swift in Sources */,
+				2B91A26128CC71BF00292D33 /* Movie.swift in Sources */,
+				2B91A27B28CCB4A200292D33 /* PurchaseTicketView.swift in Sources */,
+				2B91A26728CC847200292D33 /* MovieInfoView.swift in Sources */,
+				2B91A26D28CC8EC900292D33 /* MovieListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B91A23B28CC70C300292D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B91A24728CC70C300292D33 /* FlippedApp.swift in Sources */,
+				2B91A28228CDC7B700292D33 /* Connectivity.swift in Sources */,
+				2B91A27528CC949A00292D33 /* MovieRow.swift in Sources */,
+				2B91A27128CC929A00292D33 /* MovieDetailsView.swift in Sources */,
+				2B91A26828CC886E00292D33 /* MovieInfoView.swift in Sources */,
+				2B91A24528CC70C300292D33 /* PurchasedTicketsListView.swift in Sources */,
+				2B91A24928CC70C300292D33 /* ComplicationController.swift in Sources */,
+				2B2A16B728CE11CB00FEAB93 /* QRCode.swift in Sources */,
+				2B91A28328CDD5EF00292D33 /* ConnectivityUserInfoKey.swift in Sources */,
+				2B91A26928CC887500292D33 /* Movie.swift in Sources */,
+				2B91A27D28CCC83D00292D33 /* MovieListView.swift in Sources */,
+				2B91A26B28CC887B00292D33 /* TicketOffice.swift in Sources */,
+				2B91A27C28CCBC9900292D33 /* PurchaseTicketView.swift in Sources */,
+				2B2A16B628CDE82F00FEAB93 /* Delivery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B91A23728CC70C200292D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B91A23328CC70C200292D33 /* Flipped WatchKit App */;
+			targetProxy = 2B91A23628CC70C200292D33 /* PBXContainerItemProxy */;
+		};
+		2B91A24228CC70C300292D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B91A23E28CC70C300292D33 /* Flipped WatchKit Extension */;
+			targetProxy = 2B91A24128CC70C300292D33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B91A25028CC70C300292D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B91A25128CC70C300292D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B91A25328CC70C300292D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flipped WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flipped WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flipped WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = layer.practice.Flipped.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2B91A25428CC70C300292D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flipped WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flipped WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flipped WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = layer.practice.Flipped.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2B91A25728CC70C300292D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Flipped_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flipped WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = layer.practice.Flipped;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = layer.practice.Flipped.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2B91A25828CC70C300292D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Flipped_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flipped WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = layer.practice.Flipped;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = layer.practice.Flipped.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2B91A25B28CC70C300292D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flipped/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = layer.practice.Flipped;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B91A25C28CC70C300292D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flipped/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = layer.practice.Flipped;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B91A22128CC70C100292D33 /* Build configuration list for PBXProject "Flipped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B91A25028CC70C300292D33 /* Debug */,
+				2B91A25128CC70C300292D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B91A25228CC70C300292D33 /* Build configuration list for PBXNativeTarget "Flipped WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B91A25328CC70C300292D33 /* Debug */,
+				2B91A25428CC70C300292D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B91A25628CC70C300292D33 /* Build configuration list for PBXNativeTarget "Flipped WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B91A25728CC70C300292D33 /* Debug */,
+				2B91A25828CC70C300292D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B91A25A28CC70C300292D33 /* Build configuration list for PBXNativeTarget "Flipped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B91A25B28CC70C300292D33 /* Debug */,
+				2B91A25C28CC70C300292D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B91A21E28CC70C100292D33 /* Project object */;
+}
