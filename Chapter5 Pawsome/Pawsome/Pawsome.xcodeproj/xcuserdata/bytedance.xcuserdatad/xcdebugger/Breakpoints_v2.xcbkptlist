@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "37AEFEA0-EB8D-4188-944F-9247F6A0DABE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E828614-EB18-451E-94B2-950AD373C36F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pawsome Watch App/LocalNotifications.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "schedule()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E828614-EB18-451E-94B2-950AD373C36F - 5098d9b4eec8dd8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pawsome_Watch_App.LocalNotifications.schedule() async throws -&gt; ()"
+                  moduleName = "Pawsome Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Downloads/watchOS/Files/Chapter5%20Pawsome/Pawsome/Pawsome%20Watch%20App/LocalNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5E828614-EB18-451E-94B2-950AD373C36F - 6de0850dd37bb7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Pawsome_Watch_App.LocalNotifications.schedule() async throws -&gt; ()"
+                  moduleName = "Pawsome Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bytedance/Downloads/watchOS/Files/Chapter5%20Pawsome/Pawsome/Pawsome%20Watch%20App/LocalNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "712">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
